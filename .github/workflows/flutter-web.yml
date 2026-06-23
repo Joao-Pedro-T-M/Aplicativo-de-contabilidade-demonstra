@@ -24,7 +24,7 @@ jobs:
 
       - run: flutter pub get
 
-      - run: flutter build web --release --base-href /Aplicativo-de-contabilidade-demonstra-ao/
+      - run: flutter build web --release --base-href /Aplicativo-de-contabilidade-demonstra/
 
       - uses: actions/upload-pages-artifact@v3
         with:
